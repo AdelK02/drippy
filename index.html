@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRIPPY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="drippy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Honk:MORF,SHLN@30,92.3&family=Matemasie&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary nvbar">
+        <div class="container-fluid">
+            <div class="dropdown me-2">
+                <a class="nav-link dropdown-toggle drippylogo" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">DRIPPY</a>
+                <ul class="dropdown-menu dropdown-menu-dark dpdown1">
+                  <li><a class="dropdown-item" href="#">SNEAKERS</a></li>
+                  <li><a class="dropdown-item" href="#">COLLABS</a></li>
+                  <li><a class="dropdown-item" href="#">EXCLUSIVES</a></li>
+                </ul>
+              </div>
+              <!-- <div class="dropdown me-2">
+                <a class="nav-link dropdown-toggle browsenav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">BROWSE</a>
+                <ul class="dropdown-menu dropdown-menu-dark dpdown">
+                  <li><a class="dropdown-item" href="#">NIKE</a></li>
+                  <li><a class="dropdown-item" href="#">ADIDAS</a></li>
+                  <li><a class="dropdown-item" href="#">PUMA</a></li>
+                </ul>
+              </div> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="dropdown me-2">
+                <a class="nav-link dropdown-toggle browsenav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">BROWSE</a>
+                <ul class="dropdown-menu dropdown-menu-dark dpdown">
+                  <li><a class="dropdown-item" href="#">NIKE</a></li>
+                  <li><a class="dropdown-item" href="#">ADIDAS</a></li>
+                  <li><a class="dropdown-item" href="#">PUMA</a></li>
+                </ul>
+              </div>
+
+
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="homebtn" class="nav-link active navlnk homenav" aria-current="page" href="#carouselExampleDark">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a id="ldbtn" class="nav-link active navlnk ldnav" aria-current="page" href="#nikeee">LATEST DROP</a>
+              </li>
+            
+              <li class="nav-item">
+                <a id="contbtn" class="nav-link active navlnk cntnav" aria-current="page" href="#fooooter">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex navicn" role="search">
+                <a href=""><i class="fa-brands fa-facebook-f me-5 icn icnf"></i></a>
+                <a href=""><i class="fa-brands fa-twitter me-5 icn icnt" href="#"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram me-5 icn icni" href="#"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass me-5 icn icns" href="#"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active nike" data-bs-interval="3000">
+            <img src="IMG/Nike AMD Revolution - Mindsparkle Mag 1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>NiKE</h2>
+              <p>FROM DUNKS TO ALL THE WAY UPTO JORDANS</p>
+            </div>
+          </div>
+          <div class="carousel-item adidas" data-bs-interval="3000">
+            <img src="IMG/adidas white 11.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>adidas</h2>
+              <p>PUT ON YOUR ADIDAS AND STEP OFF</p>
+            </div>
+          </div>
+          <div class="carousel-item airmax" data-bs-interval="3000">
+            <img src="IMG/Air Max.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>AIR MAX</h2>
+              <p>EXCLUSIVE COLLECTION OF AIR MAXS</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      
+      <!-- <div class="container d-flex justify-content-between lg mt-5 mb-5">
+        <div id="nikeee" class="card nikefut" style="width: 18rem;">
+            <img src="https://www.priveshoes.com/wp-content/uploads/Futura_X_Nike_SB_Dunks_Square.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FUTURA SB</h5>
+              <p class="card-text">The Nike Futura SB is a special edition skate shoe, often linked to graffiti artist Futura, known for unique designs and popularity in skate and streetwear culture.These shoes are popular for their unique designs, high-quality materials, and cultural significance within the skate and streetwear communities.</p>
+        <a href="#" class="btn btn-primary btn1">COP</a>
+            </div>
+          </div>
+          <div class="card adfrm" style="width: 18rem;">
+            <img src="https://i.pinimg.com/736x/0f/4a/95/0f4a957372229a094ac44d3463323b06.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">forum buckle</h5>
+              <p class="card-text">An anticipitated collab between Adidas and Bad Bunny.These designs reflect Bad Bunny's bold style, featuring unique colors, materials, and innovative elements.Adidas and Bad Bunny have collaborated since 2021, creating limited-edition sneakers like the Adidas Forum Buckle Low.</p>
+              <a href="#" class="btn btn-primary btn2">COP</a>
+            </div>
+          </div>
+          <div class="card jdzion" style="width: 18rem;">
+            <img src="IMG/Jordan Zion2 Voodoo p.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ZION 2 VOODOO</h5>
+              <p class="card-text">The Jordan Zion 2 "Voodoo" is a special edition sneaker designed for NBA player Zion Williamson. <br> Released in 2022, this shoe features an earthy color palette with intricate details inspired by voodoo culture. <br> Including stitched patterns and textured materials.</p>
+              <a href="#" class="btn btn-primary btn3">COP</a>
+            </div>
+          </div>
+      </div>
+      <div class="container d-flex justify-content-between mt-5 mb-5">
+        <div class="card nikevar" style="width: 18rem;">
+            <img src="IMG/VP.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">VARSITY PURPLE</h5>
+              <p class="card-text">The Nike Dunk High "Varsity Purple" features a bold white and purple colorway, similar to the Dunk Low version. Released in 2020, this high-top sneaker has purple leather overlays on a white base, offering a classic yet striking look. It's popular among sneaker enthusiasts for its timeless design and connection to the original Dunk series from the 1980s.</p>
+              <a href="#" class="btn btn-primary btn4">COP</a>
+            </div>
+          </div>
+          <div class="card nikestu" style="width: 18rem;">
+            <img src="IMG/Stussy.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">STUSSY SPEEDWAY</h5>
+              <p class="card-text">The Stussy x Nike SB Dunk Low "Speedway" is a collaboration between Stussy and Nike, blending streetwear with motorsport-inspired design. These limited-edition Dunks feature bold colorways and checkered patterns, reflecting the Speedway theme, and are highly prized by collectors for their unique style and the cultural impact of both brands.</p>
+              <a href="#" class="btn btn-primary btn5">COP</a>
+            </div>
+          </div>
+          <div class="card jdchic" style="width: 18rem;">
+            <img src="IMG/Chicago1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHICAGO RED</h5>
+              <p class="card-text">The Air Jordan 1 "Chicago" is one of the most iconic sneakers in history. Released in 1985, it features a classic red, white, and black colorway, inspired by the Chicago Bulls, the team Michael Jordan played for. The "Chicago" Jordan 1 is highly revered for its design and its significance in sneaker culture, remaining a favorite among collectors and fans.</p>
+              <a href="#" class="btn btn-primary btn6">COP</a>
+            </div>
+          </div>
+      </div> -->
+
+
+      <div class="container mt-5 mb-5">
+        <!-- Row for the first 3 cards -->
+        <div class="row">
+            <!-- Card 1 -->
+            <div id="nikeee" class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card nikefut">
+                    <img src="https://www.priveshoes.com/wp-content/uploads/Futura_X_Nike_SB_Dunks_Square.jpg" class="card-img-top" alt="FUTURA SB">
+                    <div class="card-body">
+                        <h5 class="card-title">FUTURA SB</h5>
+                        <!-- <p class="card-text">The Nike Futura SB is a special edition skate shoe, often linked to graffiti artist Futura, known for unique designs and popularity in skate and streetwear culture.These shoes are popular for their unique designs, high-quality materials, and cultural significance within the skate and streetwear communities.</p> -->
+                        <a href="#" class="btn btn-primary btn1">COP</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card adfrm">
+                    <img src="https://i.pinimg.com/736x/0f/4a/95/0f4a957372229a094ac44d3463323b06.jpg" class="card-img-top" alt="forum buckle">
+                    <div class="card-body">
+                        <h5 class="card-title">Forum Buckle</h5>
+                        <!-- <p class="card-text">An anticipitated collab between Adidas and Bad Bunny.These designs reflect Bad Bunny's bold style, featuring unique colors, materials, and innovative elements. <br> Adidas and Bad Bunny have collaborated since 2021, creating limited-edition sneakers like the Adidas Forum Buckle Low.</p> -->
+                        <a href="#" class="btn btn-primary btn2">COP</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card jdzion">
+                    <img src="IMG/Jordan Zion2 Voodoo 1.jpeg" class="card-img-top" alt="Zion 2 Voodoo">
+                    <div class="card-body">
+                        <h5 class="card-title">ZION VOODOO</h5>
+                        <!-- <p class="card-text">The Jordan Zion 2 "Voodoo" is a special edition sneaker designed for NBA player Zion Williamson. <br> Released in 2022, this shoe features an earthy color palette with intricate details inspired by voodoo culture. <br> Including stitched patterns and textured materials.</p> -->
+                        <a href="#" class="btn btn-primary btn3">COP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Row for the next 3 cards -->
+        <div class="row">
+            <!-- Card 4 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card nikevar">
+                    <img src="IMG/VP.jpeg" class="card-img-top" alt="Varsity Purple">
+                    <div class="card-body">
+                        <h5 class="card-title">VARSITY PURPLE</h5>
+                        <!-- <p class="card-text">The Nike Dunk High "Varsity Purple" features a bold white and purple colorway, similar to the Dunk Low version. Released in 2020, this high-top sneaker has purple leather overlays on a white base, offering a classic yet striking look. It's popular among sneaker enthusiasts for its timeless design and connection to the original Dunk series from the 1980s.</p> -->
+                        <a href="#" class="btn btn-primary btn4">COP</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 5 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card nikestu">
+                    <img src="IMG/Stussy.jpeg" class="card-img-top" alt="Stussy Speedway">
+                    <div class="card-body">
+                        <h5 class="card-title">STUSSY SPEEDWAY</h5>
+                        <!-- <p class="card-text">The Stussy x Nike SB Dunk Low "Speedway" is a collaboration between Stussy and Nike, blending streetwear with motorsport-inspired design. These limited-edition Dunks feature bold colorways and checkered patterns, reflecting the Speedway theme, and are highly prized by collectors for their unique style and the cultural impact of both brands.</p> -->
+                        <a href="#" class="btn btn-primary btn5">COP</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 6 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex">
+                <div class="card jdchic">
+                    <img src="IMG/Nike Cortez Poster .jpeg" class="card-img-top" alt="Chicago Red">
+                    <div class="card-body">
+                        <h5 class="card-title">CORTEZ</h5>
+                        <!-- <p class="card-text">The Air Jordan 1 "Chicago" is one of the most iconic sneakers in history. Released in 1985, it features a classic red, white, and black colorway, inspired by the Chicago Bulls, the team Michael Jordan played for. The "Chicago" Jordan 1 is highly revered for its design and its significance in sneaker culture, remaining a favorite among collectors and fans.</p> -->
+                        <a href="#" class="btn btn-primary btn6">COP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+      <div id="parallax"><h4>LOOK OUT FOR NEW DROPS</h4></div>
+
+
+
+      <footer id="fooooter" class="bg-light text-dark pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- About Us Section -->
+                <div class="col-12 col-md-4 mb-4">
+                    <h5 class="abtush5">About Us</h5>
+                    <p class="abtusp">We bring you the latest and most exclusive sneakers from top brands like Nike, Adidas,Puma and much more. Explore the best in streetwear and skate culture.</p>
+                </div>
+    
+                <!-- Contact Information -->
+                <div class="col-12 col-md-4 mb-4">
+                    <h5 class="cnth5">Contact</h5>
+                    <ul class="list-unstyled cntdtl">
+                        <li><i class="bi bi-envelope"></i> drippycop@gmail.com</li>
+                        <li><i class="bi bi-phone"></i> +91 96847 59320</li>
+                        <li><i class="bi bi-geo-alt"></i> 32nd Street, NY, USA</li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="col-12 col-md-4 mb-4">
+                    <h5 class="flwh5">Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li class="me-3"><a href=""><i class="fa-brands fa-facebook-f me-5 icn icnf"></i></a></li>
+                        <li class="me-3"><a href=""><i class="fa-brands fa-twitter me-5 icn icnt" href="#"></i></a></li>
+                        <li class="me-3"><a href=""><i class="fa-brands fa-square-instagram me-5 icn icni" href="#"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p>&copy; Drippy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  (function() {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#parallax");
+    // Magic happens here
+    function parallax(e) {
+        let _w = window.innerWidth/2;
+        let _h = window.innerHeight/2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+    }
+
+})();
+</script>
+</html>

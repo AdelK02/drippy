@@ -1,0 +1,304 @@
+.nvbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.drippylogo{
+    margin-right: 20px;
+    font-family: "Honk", system-ui;
+    font-size: 40px;
+    font-variation-settings:
+    "MORF" 30,"SHLN" 71.5;
+}
+.drippylogo:hover{
+    color: rgb(89, 137, 81);
+}
+.browsenav{
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.browsenav:hover{
+    color: rgb(160, 64, 83);
+}
+.dpdown{
+    background-color: rgb(45, 180, 96);
+}
+.dpdown1{
+    background-color: rgb(45, 128, 180);
+}
+#homebtn:hover{
+    color: steelblue;
+}
+#ldbtn:hover{
+    color: seagreen;
+}
+#contbtn:hover{
+    color: olivedrab;
+}
+.navlnk{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.icn{
+    color: black;
+}
+.icnf:hover{
+    color: cornflowerblue;
+}
+.icnt:hover{
+    color: royalblue;
+}
+.icni:hover{
+    color: rgb(249, 6, 168);
+}
+.icns:hover{
+    color: orchid;
+}
+.airmax h2{
+    font-family: "Matemasie", sans-serif;
+    font-weight: bold;
+    color: rgb(249, 6, 168);
+}
+.adidas h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+}
+.nike h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: beige;
+    transform: scale(1.7,1.4);
+}
+.nike p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    transform: scale(1.3,1);
+    color: blue;
+}
+.adidas P{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+}
+.airmax P{
+    font-family: "Matemasie", sans-serif;
+    font-weight: bold;
+    color: sienna;
+}
+.adfrm h5{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+    color: rgb(212, 167, 109);
+}
+.jdzion h5{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    color: rgb(41, 96, 41);
+}
+.nikefut h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 2000;
+    font-size: 20px;
+    font-style: italic;
+    color: cadetblue;
+}
+.nikevar h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 2000;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(116, 63, 157);
+}
+.nikestu h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 2000;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(89, 137, 81);
+}
+.jdchic h5{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    color: rgb(160, 64, 83);
+}
+.card{
+    filter: grayscale(50%);
+}
+.card:hover{
+    filter: grayscale(0);
+    transform: scale(1.08);
+    transition: ease-in-out 1s;
+}
+.btn1{
+    color: white;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn1:hover{
+    color: cadetblue;
+    background-color: transparent;
+    transition: .4s;
+}
+.btn2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(212, 167, 109);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn2:hover{
+    color: rgb(212, 167, 109);
+    background-color: transparent;
+    transition: .4s;
+}
+.btn3{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(41, 96, 41);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn3:hover{
+    color: rgb(41, 96, 41);
+    background-color: transparent;
+    transition: .4s;
+}
+.btn4{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(116, 63, 157);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn4:hover{
+    color: rgb(116, 63, 157);
+    background-color: transparent;
+    transition: .4s;
+}
+.btn5{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(89, 137, 81);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn5:hover{
+    color: rgb(89, 137, 81);
+    background-color: transparent;
+    transition: .4s;
+}
+.btn6{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(160, 64, 83);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 80%;
+}
+.btn6:hover{
+    color: rgb(160, 64, 83);
+    background-color: transparent;
+    transition: .4s;
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+  }
+  #parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG/456\ png.png), url(IMG/123\ png.png), url(IMG/Nike\ png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+  }
+  h4 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Matemasie", sans-serif;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(4, 101, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.abtush5{
+    font-family: "DM Sans", sans-serif;
+}
+.abtusp{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+.cntdtl{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+.cnth5{
+    font-family: "DM Sans", sans-serif;
+}
+.flwh5{
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+  @media (max-width: 768px) {
+    #parallax {
+        height: 600px;
+        width: 100%;
+    }
+    .parallax-text {
+        font-size: 1.5rem;
+    }
+    #parallax h4{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #parallax {
+        height: 500px;
+        width: 100%;
+    }
+    .parallax-text {
+        font-size: 1.2rem;
+    }
+    #parallax h4{
+        font-size: 15px;
+    }
+}
+@media (max-width: 472px) {
+    #parallax {
+        height: 400px;
+        width: 100%;
+    }
+    .parallax-text {
+        font-size: 1.2rem;
+    }
+    #parallax h4{
+        font-size: 10px;
+    }
+}
